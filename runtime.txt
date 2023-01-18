@@ -1,0 +1,3 @@
+3report_abstract.rb:30:in output_body_start': Called abstract metho: output_body_start (RuntimeError)
+        from 3report_abstract.rb:10:in output_report'
+        from 3report_abstract.rb:98:in `<main>'

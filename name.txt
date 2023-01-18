@@ -1,0 +1,30 @@
+NameError:
+       undefined local variable or method rental' for #<Rental:0x00007f819da7a730 @movie=#<Movie:0x00007f819da7aaa0 @title="Gundom", @price_code=0>, @days_rented=3>
+     # ./lib/rental.rb:11:in charge'
+     # ./lib/customer.rb:31:in amount_for'
+     # ./lib/customer.rb:17:in block in statement'
+     # ./lib/customer.rb:16:in each'
+     # ./lib/customer.rb:16:in statement'
+     # ./spec/init_spec/customer_spec.rb:33:in block (2 levels) in <top (required)>'
+
+     1) Customer class should print statement with correct amounts
+     Failure/Error: frequent_renter_points += 1
+     
+     NoMethodError:
+       undefined method +' for nil:NilClass
+     # ./lib/rental.rb:24:in frequent_renter_points'
+     # ./lib/customer.rb:17:in block in statement'
+     # ./lib/customer.rb:16:in each'
+     # ./lib/customer.rb:16:in statement'
+     # ./spec/init_spec/customer_spec.rb:33:in block (2 levels) in <top (required)>'
+
+     1) Customer class should print statement with correct amounts
+     Failure/Error: frequent_renter_points += element.frequent_renter_points
+     
+     TypeError:
+       nil can't be coerced into Integer
+     # ./lib/customer.rb:17:in +'
+     # ./lib/customer.rb:17:in block in statement'
+     # ./lib/customer.rb:16:in each'
+     # ./lib/customer.rb:16:in statement'
+     # ./spec/init_spec/customer_spec.rb:33:in block (2 levels) in <top (required)>' 
