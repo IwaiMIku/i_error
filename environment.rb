@@ -9,7 +9,7 @@ def translate(contents, source, target)
     source: source,
     target: target,
     format: "text",
-    key: 'AIzaSyBYGSDzAigPRbFu0sNr24Yg0W-p3CsyajE'
+    key: 'GOOGLE_TRANSLATE_KEY'
   }
   url.query = URI.encode_www_form(params)
   p res = Net::HTTP.get_response(url)
