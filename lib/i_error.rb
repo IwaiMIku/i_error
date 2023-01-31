@@ -7,7 +7,6 @@ require_relative "i_error/version"
 module IError
   class Error < StandardError; end
   # Your code goes here...
-  puts "hello"
   
   def from_file(file='tmp.txt')
     File.readlines('tmp.txt').each do |line|
